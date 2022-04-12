@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memorama</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="/js/javascript.js"></script>
+</head>
+
+<body>
+    <!-- HTML -->
+    <!-- estructura visual -->
+    <div>
+        <label id="turno" class="turno"></label>
+    </div>
+    <div id="tablero">
+    </div>
+    <br>
+    <div class="jumbotron text-center">
+        <table border="1">
+            <thead>
+              <tr>
+                 <th colspan="5">
+                    Jugadores
+                 </th>
+              </tr>
+              <tr>
+                <th>Nombre</th>
+                <th>Puntos</th>
+              </tr>
+            </thead>
+            <tbody >
+            <tr>
+                <td><label id="jugador1Nombre"></label></td>
+                <td><label id="jugador1Puntos">0</label></td>
+            </tr>
+            <tr>
+                <td><label id="jugador2Nombre"></label></td>
+                <td><label id="jugador2Puntos">0</label></td>
+            </tr>
+
+            </tbody>
+          </table>
+      </div>
+      <div >
+      </div>
+      <div id="contenedor">
+    </div>
+
+
+    <div class="nuevo-juego" onclick="generarTablero()">
+        Nuevo Juego
+    </div>
+
+    <div class="nuevo-juego" onclick="Salir()">
+        Salir
+    </div>
+ 
+
+
+</body>
+
+</html>
